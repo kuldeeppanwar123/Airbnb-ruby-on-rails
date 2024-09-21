@@ -1,8 +1,10 @@
 source "https://rubygems.org"
 
 ruby "3.3.2"
+gem 'awesome_print'
 gem "bootsnap", require: false
-gem "importmap-rails"
+gem 'devise', '~> 4.9', '>= 4.9.4'
+gem 'importmap-rails', '~> 1.1', '>= 1.1.5'
 gem "jbuilder"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 gem "pg", "~> 1.1"
